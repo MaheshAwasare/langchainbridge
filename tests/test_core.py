@@ -1,7 +1,7 @@
 import unittest
 from unittest.mock import MagicMock
-from langchainbridge.core import LLMWrapper
-from langchainbridge.providers.provider_enum import LLMProvider
+from llm_wrapper.core import LLMWrapper
+from llm_wrapper.providers.provider_enum import LLMProvider
 
 class TestLLMWrapper(unittest.TestCase):
 
