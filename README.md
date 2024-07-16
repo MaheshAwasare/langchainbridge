@@ -27,8 +27,8 @@ pip install langchainbridge==1.0.0
 You can initialize the wrapper by specifying the provider using the LLMProvider enum and providing the necessary API key and other parameters.
 
 ```shell
-from langchainbridge.core import LLMWrapper
-from langchainbridge.providers.provider_enum import LLMProvider
+from llm_wrapper.core import LLMWrapper
+from llm_wrapper.providers.provider_enum import LLMProvider
 
 # For Google
 google_llm = LLMWrapper(provider=LLMProvider.GOOGLE, api_key='YOUR_GOOGLE_API_KEY')
