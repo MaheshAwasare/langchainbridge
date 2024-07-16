@@ -37,17 +37,17 @@ print(response)
 
 # For OpenAI
 openai_llm = LLMWrapper(provider=LLMProvider.OPENAI, api_key='YOUR_OPENAI_API_KEY', organization='YOUR_ORG_ID')
-response = openai_llm.invoke("What NFL team won the Super Bowl in the year Justin Bieber was born?")
+response = openai_llm.invoke("Where was Shivaji Maharaj born?")
 print(response)
 
 # For Ollama
 ollama_llm = LLMWrapper(provider=LLMProvider.OLLAMA)
-response = ollama_llm.invoke("Summarize the text given to you.")
+response = ollama_llm.invoke("Where was Shivaji Maharaj born?")
 print(response)
 
 # For Anthropic
 anthropic_llm = LLMWrapper(provider=LLMProvider.ANTHROPIC, api_key='YOUR_ANTHROPIC_API_KEY')
-response = anthropic_llm.invoke("Translate 'I love programming.' to French.")
+response = anthropic_llm.invoke("Where was Shivaji Maharaj born?")
 print(response)
 
 ```
