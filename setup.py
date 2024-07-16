@@ -1,8 +1,8 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='LangChainBridge',
-    version='0.1.0',
+    name='langchainbridge',
+    version='1.0.1',
     packages=find_packages(),
     install_requires=[
         'langchain-google-genai',
@@ -15,7 +15,7 @@ setup(
     long_description_content_type='text/markdown',
     author='Mahesh Awasare',
     author_email='maheshawasare@gmail.com',
-    url='https://github.com/yourusername/langchainbridge',
+    url='https://github.com/maheshawasare/langchainbridge',
     classifiers=[
         'Programming Language :: Python :: 3',
         'License :: OSI Approved :: MIT License',
