@@ -15,7 +15,7 @@ setup(
     long_description_content_type='text/markdown',
     author='Mahesh Awasare',
     author_email='maheshawasare@gmail.com',
-    url='https://github.com/maheshawasare/langchainbridge',
+    url='https://github.com/MaheshAwasare/langchainbridge',
     classifiers=[
         'Programming Language :: Python :: 3',
         'License :: OSI Approved :: MIT License',
