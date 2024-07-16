@@ -1,9 +1,9 @@
 import unittest
 from unittest.mock import patch
-from langchainbridge.providers.google_provider import GoogleProvider
-from langchainbridge.providers.openai_provider import OpenAIProvider
-from langchainbridge.providers.ollama_provider import OllamaProvider
-from langchainbridge.providers.anthropic_provider import AnthropicProvider
+from llm_wrapper.providers.google_provider import GoogleProvider
+from llm_wrapper.providers.openai_provider import OpenAIProvider
+from llm_wrapper.providers.ollama_provider import OllamaProvider
+from llm_wrapper.providers.anthropic_provider import AnthropicProvider
 
 class TestGoogleProvider(unittest.TestCase):
 
