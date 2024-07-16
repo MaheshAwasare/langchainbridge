@@ -13,7 +13,7 @@ LangChainBridge is a unified wrapper library designed to simplify the use of var
 Install LangChainBridge using pip:
 
 ```sh
-pip install langchainbridge==0.2.0
+pip install langchainbridge==1.0.0
 
 ```
 ## Supported Providers
